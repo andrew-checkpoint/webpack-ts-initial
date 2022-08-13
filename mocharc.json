@@ -1,0 +1,11 @@
+{
+    "diff": true,
+    "require": ["ts-node/esm"],
+    "extension": ["js", "cjs", "mjs", "ts"],
+    "package": "./package.json",
+    "reporter": "spec",
+    "slow": 75,
+    "timeout": 2000,
+    "ui": "tdd",
+    "watch-ignore": ["node_modules", ".git"]
+}
